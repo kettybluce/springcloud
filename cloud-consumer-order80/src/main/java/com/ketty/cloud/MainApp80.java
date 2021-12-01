@@ -2,6 +2,7 @@ package com.ketty.cloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * <p>
@@ -12,6 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @create 2021-11-30 17:36
  */
 @SpringBootApplication
+@EnableEurekaClient
 public class MainApp80
 {
 	public static void main(String[] args)
